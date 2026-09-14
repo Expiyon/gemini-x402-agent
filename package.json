@@ -1,0 +1,13 @@
+{
+  "name": "spendlens-gemini-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An autonomous, tool-using Gemini agent whose spend is governed by the Spendlens SDK — a real ReAct loop, not a scripted demo.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node agent.mjs"
+  }
+}
